@@ -1,27 +1,3 @@
-//Library
-#import <UIKit/UIKit.h>
-#import <Foundation/Foundation.h>
-#import <objc/runtime.h>
-#import <AudioToolbox/AudioToolbox.h>
-#import <os/log.h>
-#import "pthread.h"
-#include <math.h>
-#include <deque>
-#include <vector>
-#include <fstream>
-
-//Config
-#import "Config.h"
-
-//Lib
-#include "Lib/Obfuscate.h"
-#include "Lib/Memory.h"
-
-//UI
-#import "UI/UIManager.h"
-#import "UI/TypeSelectionView.h"
-#include "Game/GameFunction.h"
-
 @interface UIManager (HackLoop)
 - (void)onTimer;
 @end
